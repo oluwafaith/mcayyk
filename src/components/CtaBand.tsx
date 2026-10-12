@@ -20,7 +20,7 @@ export function CtaBand() {
           </p>
           <h2
             id="cta-title"
-            className="mx-auto mt-6 max-w-3xl font-display text-[clamp(2.2rem,6vw,4rem)] leading-[1.02] font-extrabold tracking-[-0.035em] text-white"
+            className="mx-auto mt-6 max-w-3xl font-display text-[clamp(1.85rem,5.5vw,4rem)] leading-[1.08] font-extrabold tracking-[-0.035em] text-white"
           >
             Planning a party, wedding or <span className="text-gold-gradient-light">corporate event?</span>
           </h2>

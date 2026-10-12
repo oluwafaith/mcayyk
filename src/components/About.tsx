@@ -54,7 +54,7 @@ export function About() {
             <li
               key={h.label}
               data-reveal={String(i + 1)}
-              className="card card-hover flex flex-col gap-2 p-6 lg:flex-row lg:items-center lg:justify-between"
+              className="card card-hover flex flex-col gap-2 p-5 sm:p-6 lg:flex-row lg:items-center lg:justify-between"
             >
               <span className="text-sm font-semibold tracking-wide text-ink-muted uppercase">{h.label}</span>
               <Placeholder>{h.value}</Placeholder>

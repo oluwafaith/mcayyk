@@ -7,7 +7,7 @@ import { VerifiedBadge } from "./VerifiedBadge";
 
 export function Hero() {
   return (
-    <section id="top" aria-labelledby="hero-title" className="bg-surface-gold relative overflow-hidden pt-28 pb-20 sm:pt-32 lg:pt-36 lg:pb-28">
+    <section id="top" aria-labelledby="hero-title" className="bg-surface-gold relative overflow-hidden pt-24 pb-28 sm:pt-32 sm:pb-32 lg:pt-36 lg:pb-36">
       {/* soft gold glow */}
       <div
         aria-hidden="true"
@@ -23,7 +23,7 @@ export function Hero() {
 
           <h1
             id="hero-title"
-            className="mt-5 animate-fade-up font-display text-[clamp(3.2rem,11vw,6.6rem)] leading-[0.92] font-extrabold tracking-[-0.045em] [animation-delay:120ms]"
+            className="mt-5 animate-fade-up font-display text-[clamp(2.4rem,8.5vw,5.8rem)] leading-[0.94] font-extrabold tracking-[-0.04em] [animation-delay:120ms]"
           >
             <span className="sr-only">MC AYYK, </span>
             <span className="text-gold-gradient block pb-1">Master Of</span>
@@ -73,7 +73,7 @@ export function Hero() {
           </figure>
 
           {/* Verified name badge (from flyer) */}
-          <div className="absolute top-8 -right-2 flex animate-float items-center gap-2 rounded-xl bg-white px-4 py-2.5 shadow-xl shadow-black/10 sm:-right-6">
+          <div className="absolute top-6 right-2 flex animate-float items-center gap-2 rounded-xl bg-white px-3.5 py-2 shadow-xl shadow-black/10 sm:top-8 sm:-right-4 sm:px-4 sm:py-2.5">
             <span className="font-display text-lg font-extrabold tracking-tight text-gold-700">MC AYYK</span>
             <VerifiedBadge className="size-7" title="Verified" />
           </div>

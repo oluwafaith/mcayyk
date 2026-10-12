@@ -93,7 +93,7 @@ export function ContactForm() {
       action={site.formEndpoint || undefined}
       method="POST"
       noValidate
-      className="card relative p-6 sm:p-9"
+      className="card relative p-5 sm:p-8 md:p-9"
       aria-describedby="form-status"
     >
       <div className="grid gap-5 sm:grid-cols-2">

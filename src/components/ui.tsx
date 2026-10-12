@@ -29,7 +29,7 @@ export function SectionHeading({
       <p className={`eyebrow ${dark ? "text-gold-300!" : ""}`}>{eyebrow}</p>
       <h2
         id={id}
-        className={`mt-4 font-display text-[clamp(2.1rem,5.5vw,3.4rem)] leading-[1.02] font-extrabold tracking-[-0.03em] ${
+        className={`mt-4 font-display text-[clamp(1.85rem,5.5vw,3.4rem)] leading-[1.06] font-extrabold tracking-[-0.03em] ${
           dark ? "text-white" : "text-ink"
         }`}
       >
